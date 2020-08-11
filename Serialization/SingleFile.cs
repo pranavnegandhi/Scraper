@@ -4,7 +4,7 @@ namespace Notadesigner.Scraper.Serialization
 {
     public class SingleFile : IFileLayout
     {
-        private DirectoryInfo _basePath;
+        private readonly DirectoryInfo _basePath;
 
         public SingleFile(string basePath)
         {

@@ -4,7 +4,7 @@ namespace Notadesigner.Scraper.Serialization
 {
     public class Package : IFileLayout
     {
-        private DirectoryInfo _basePath;
+        private readonly DirectoryInfo _basePath;
 
         public Package(string basePath)
         {
