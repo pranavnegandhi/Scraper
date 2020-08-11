@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Notadesigner.Scraper.Serialization
 {
-    public class ItemRetriever
+    public class HttpRetriever
     {
         private HttpClient _httpClient = new HttpClient();
 
